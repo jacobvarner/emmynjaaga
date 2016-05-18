@@ -1,6 +1,7 @@
 ///////////////
 // VARIABLES //
 ///////////////
+
 $light-blue: #3399cc
 $dark-blue: #003366
 $background: #ffffcc
@@ -8,3 +9,50 @@ $overlay: rgba(255, 204, 201, 0.50)
 $title-font: 'Gochi Hand', cursive
 $heading: 'Sniglet', cursive
 $paragraph: 'Mandali', sans-serif
+
+////////////////
+// NAVIGATION //
+////////////////
+
+header
+  display: block
+  position: absolute
+  top: 0
+  height: 80px
+  width: 100%
+  background: $light-blue
+  box-shadow: 0px 10px 10px rgba(51, 51, 51, 0.5)
+
+  nav
+    display: block
+    float: left
+    height: 80px
+    margin-left: 15px
+    font-size: 0
+
+    a, a:visited
+      display: inline-block
+      line-height: 80px
+      padding: 0 15px
+      text-decoration: none
+      font-family: $heading
+      font-size: 30px
+      vertical-align: middle
+      color: white
+
+      &:hover
+        color: $dark-blue
+        transition: 0.5s
+
+  #linkedin-icon, #linkedin-icon:visited
+    display: block
+    float: right
+    margin: 20px 30px
+    color: white
+    text-decoration: none
+    font-size: 40px
+    line-height: 40px
+
+    &:hover
+      color: $dark-blue
+      transition: 0.5s
