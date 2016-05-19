@@ -1,3 +1,6 @@
+body {
+  background: url("../images/white-wall.jpg") repeat center; }
+
 header {
   display: block;
   position: fixed;
@@ -9,7 +12,7 @@ header {
   header nav {
     display: block;
     float: left;
-    height: 80px;
+    height: 60px;
     margin-left: 15px;
     font-size: 0; }
     header nav a, header nav a:visited {
@@ -36,5 +39,139 @@ header {
     transition: 0.5s linear; }
     header #linkedin-icon:hover, header #linkedin-icon:visited:hover {
       color: #003366; }
+
+#banner {
+  padding: 30px;
+  margin-top: 60px; }
+  #banner #banner-container {
+    text-align: center; }
+    #banner #banner-container img#headshot {
+      width: 400px;
+      margin: 30px 30px 20px;
+      box-shadow: 0 15px 20px rgba(51, 51, 51, 0.5);
+      border-radius: 200px; }
+    #banner #banner-container h1 {
+      font-family: "Rock Salt", cursive;
+      font-size: 100px;
+      line-height: 160px;
+      color: #3399cc;
+      margin: 30px;
+      text-shadow: 0 10px 10px rgba(51, 51, 51, 0.5); }
+
+#about {
+  padding: 0px 30px 30px; }
+  #about #about-container {
+    background: white;
+    box-shadow: 0 5px 15px rgba(51, 51, 51, 0.75);
+    padding: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: auto; }
+    #about #about-container #about-heading {
+      text-align: center;
+      color: #3399cc;
+      font-family: "Sniglet", cursive;
+      font-size: 48px;
+      margin: 0;
+      margin-bottom: 30px; }
+    #about #about-container .about-paragraph {
+      font-family: "Mandali", sans-serif;
+      font-size: 18px;
+      line-height: 24px;
+      color: #003366;
+      margin: 0;
+      margin-top: 15px; }
+
+#contact {
+  padding: 0 30px 30px; }
+  #contact #contact-container {
+    background: #003366;
+    box-shadow: 0 5px 15px rgba(51, 51, 51, 0.75);
+    padding: 30px;
+    max-width: 630px;
+    margin: 0 auto;
+    overflow: auto;
+    text-align: center; }
+    #contact #contact-container #contact-heading {
+      color: white;
+      font-family: "Sniglet", cursive;
+      font-size: 48px;
+      margin: 0;
+      margin-bottom: 30px; }
+    #contact #contact-container a, #contact #contact-container a:visited {
+      color: white;
+      display: block;
+      font-family: "Mandali", sans-serif;
+      font-size: 40px;
+      line-height: 48px;
+      text-decoration: none;
+      margin: 0;
+      margin-top: 30px;
+      transition: 0.5s linear; }
+    #contact #contact-container a:hover {
+      color: #3399cc; }
+
+#resume {
+  padding: 0 30px 30px; }
+  #resume #resume-container {
+    background: white;
+    box-shadow: 0 5px 15px rgba(51, 51, 51, 0.75);
+    padding: 30px;
+    max-width: 630px;
+    margin: 0 auto;
+    overflow: auto; }
+    #resume #resume-container #resume-heading {
+      text-align: center;
+      color: #3399cc;
+      font-family: "Sniglet", cursive;
+      font-size: 48px;
+      margin: 0;
+      margin-bottom: 30px; }
+    #resume #resume-container .button, #resume #resume-container .button:visited {
+      float: left;
+      margin-right: 30px;
+      width: 292px;
+      border: #003366 solid 5px;
+      text-align: center;
+      text-decoration: none;
+      font-family: "Mandali", sans-serif;
+      color: #003366;
+      font-size: 24px;
+      transition: 0.3s ease-in;
+      box-shadow: 0 3px 5px 0 rgba(51, 51, 51, 0.5); }
+      #resume #resume-container .button:hover, #resume #resume-container .button:visited:hover {
+        box-shadow: 0px 6px 10px 0px rgba(51, 51, 51, 0.5); }
+    #resume #resume-container .button-inverse, #resume #resume-container .button-inverse:visited {
+      float: left;
+      width: 292px;
+      border: #003366 solid 5px;
+      background: #003366;
+      text-align: center;
+      text-decoration: none;
+      font-family: "Mandali", sans-serif;
+      color: white;
+      font-size: 24px;
+      transition: 0.3s ease-in;
+      box-shadow: 0 3px 5px 0 rgba(51, 51, 51, 0.5); }
+      #resume #resume-container .button-inverse:hover, #resume #resume-container .button-inverse:visited:hover {
+        box-shadow: 0px 6px 10px 0px rgba(51, 51, 51, 0.5); }
+
+footer {
+  width: 100%;
+  text-align: center;
+  height: 60px;
+  background: #3399cc;
+  margin: 0;
+  padding: 0;
+  overflow: auto; }
+  footer p {
+    color: white;
+    font-family: "Mandali", sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 18px 30px; }
+    footer p a, footer p a:visited, footer p a:hover {
+      color: #003366;
+      text-decoration: none; }
 
 /*# sourceMappingURL=main.css.map */

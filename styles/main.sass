@@ -6,9 +6,16 @@ $light-blue: #3399cc
 $dark-blue: #003366
 $background: #ffffcc
 $overlay: rgba(255, 204, 201, 0.50)
-$title-font: 'Gochi Hand', cursive
+$title-font: 'Rock Salt', cursive
 $heading: 'Sniglet', cursive
 $paragraph: 'Mandali', sans-serif
+
+////////////////
+// BACKGROUND //
+////////////////
+
+body
+  background: url("../images/white-wall.jpg") repeat center
 
 ////////////////
 // NAVIGATION //
@@ -26,7 +33,7 @@ header
   nav
     display: block
     float: left
-    height: 80px
+    height: 60px
     margin-left: 15px
     font-size: 0
 
@@ -57,3 +64,175 @@ header
 
     &:hover
       color: $dark-blue
+
+////////////
+// BANNER //
+////////////
+
+#banner
+  padding: 30px
+  margin-top: 60px
+
+  #banner-container
+    text-align: center
+
+    img#headshot
+      width: 400px
+      margin: 30px 30px 20px
+      box-shadow: 0 15px 20px rgba(51, 51, 51, 0.50)
+      border-radius: 200px
+
+    h1
+      font-family: $title-font
+      font-size: 100px
+      line-height: 160px
+      color: $light-blue
+      margin: 30px
+      text-shadow: 0 10px 10px rgba(51, 51, 51, 0.50)
+
+///////////
+// ABOUT //
+///////////
+
+#about
+  padding: 0px 30px 30px
+
+  #about-container
+    background: white
+    box-shadow: 0 5px 15px rgba(51, 51, 51, 0.75)
+    padding: 30px
+    max-width: 1200px
+    margin: 0 auto
+    overflow: auto
+
+    #about-heading
+      text-align: center
+      color: $light-blue
+      font-family: $heading
+      font-size: 48px
+      margin: 0
+      margin-bottom: 30px
+
+    .about-paragraph
+      font-family: $paragraph
+      font-size: 18px
+      line-height: 24px
+      color: $dark-blue
+      margin: 0
+      margin-top: 15px
+
+/////////////
+// CONTACT //
+/////////////
+
+#contact
+  padding: 0 30px 30px
+
+  #contact-container
+    background: $dark-blue
+    box-shadow: 0 5px 15px rgba(51, 51, 51, 0.75)
+    padding: 30px
+    max-width: 630px
+    margin: 0 auto
+    overflow: auto
+    text-align: center
+
+    #contact-heading
+      color: white
+      font-family: $heading
+      font-size: 48px
+      margin: 0
+      margin-bottom: 30px
+
+    a, a:visited
+      color: white
+      display: block
+      font-family: $paragraph
+      font-size: 40px
+      line-height: 48px
+      text-decoration: none
+      margin: 0
+      margin-top: 30px
+      transition: 0.5s linear
+
+    a:hover
+      color: $light-blue
+
+////////////
+// RESUME //
+////////////
+
+#resume
+  padding: 0 30px 30px
+
+  #resume-container
+    background: white
+    box-shadow: 0 5px 15px rgba(51, 51, 51, 0.75)
+    padding: 30px
+    max-width: 630px
+    margin: 0 auto
+    overflow: auto
+
+    #resume-heading
+      text-align: center
+      color: $light-blue
+      font-family: $heading
+      font-size: 48px
+      margin: 0
+      margin-bottom: 30px
+
+    .button, .button:visited
+      float: left
+      margin-right: 30px
+      width: 292px
+      border: $dark-blue solid 5px
+      text-align: center
+      text-decoration: none
+      font-family: $paragraph
+      color: $dark-blue
+      font-size: 24px
+      transition: 0.3s ease-in
+      box-shadow: 0 3px 5px 0 rgba(51, 51, 51, 0.50)
+
+      &:hover
+        box-shadow: 0px 6px 10px 0px rgba(51, 51, 51, 0.50)
+
+    .button-inverse, .button-inverse:visited
+      float: left
+      width: 292px
+      border: $dark-blue solid 5px
+      background: $dark-blue
+      text-align: center
+      text-decoration: none
+      font-family: $paragraph
+      color: white
+      font-size: 24px
+      transition: 0.3s ease-in
+      box-shadow: 0 3px 5px 0 rgba(51, 51, 51, 0.50)
+
+      &:hover
+        box-shadow: 0px 6px 10px 0px rgba(51, 51, 51, 0.50)
+
+////////////
+// FOOTER //
+////////////
+
+footer
+  width: 100%
+  text-align: center
+  height: 60px
+  background: $light-blue
+  margin: 0
+  padding: 0
+  overflow: auto
+
+  p
+    color: white
+    font-family: $paragraph
+    font-size: 18px
+    line-height: 24px
+    margin: 18px 30px
+
+    a, a:visited, a:hover
+      color: $dark-blue
+      text-decoration: none
