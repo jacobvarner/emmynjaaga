@@ -253,5 +253,8 @@ footer {
     footer p a, footer p a:visited, footer p a:hover {
       color: #003366;
       text-decoration: none; }
+    @media only screen and (max-width: 769px) {
+      footer p {
+        font-size: 14px; } }
 
 /*# sourceMappingURL=main.css.map */
