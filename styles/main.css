@@ -141,11 +141,11 @@ body {
       margin-bottom: 30px; }
       @media only screen and (max-width: 769px) {
         #contact #contact-container #contact-heading {
-          font-size: 36px;
+          font-size: 48px;
           margin-bottom: 20px; } }
       @media only screen and (max-width: 601px) {
         #contact #contact-container #contact-heading {
-          font-size: 24px;
+          font-size: 30px;
           margin-bottom: 10px; } }
     #contact #contact-container a, #contact #contact-container a:visited {
       color: white;
@@ -184,42 +184,57 @@ body {
     padding: 30px;
     max-width: 630px;
     margin: 0 auto;
-    overflow: auto; }
+    overflow: auto;
+    font-size: 0;
+    text-align: center; }
+    @media only screen and (max-width: 769px) {
+      #resume #resume-container {
+        padding: 30px;
+        max-width: 500px; } }
+    @media only screen and (max-width: 601px) {
+      #resume #resume-container {
+        padding: 20px;
+        max-width: 300px; } }
     #resume #resume-container #resume-heading {
-      text-align: center;
       color: #3399cc;
       font-family: "Sniglet", cursive;
       font-size: 48px;
       margin: 0;
-      margin-bottom: 30px; }
-    #resume #resume-container .button, #resume #resume-container .button:visited {
-      float: left;
-      margin-right: 30px;
-      width: 292px;
-      border: #003366 solid 5px;
+      margin-bottom: 10px; }
+      @media only screen and (max-width: 769px) {
+        #resume #resume-container #resume-heading {
+          font-size: 48px;
+          margin-bottom: 0px; } }
+      @media only screen and (max-width: 601px) {
+        #resume #resume-container #resume-heading {
+          font-size: 30px;
+          margin-bottom: 0px; } }
+    #resume #resume-container a, #resume #resume-container a:visited {
+      display: inline-block;
+      width: 220px;
+      height: 50px;
+      margin: 15px 10px 0px;
       text-align: center;
       text-decoration: none;
-      font-family: "Mandali", sans-serif;
-      color: #003366;
+      box-shadow: 0 3px 5px 0 rgba(51, 51, 51, 0.5);
       font-size: 24px;
-      transition: 0.3s ease-in;
-      box-shadow: 0 3px 5px 0 rgba(51, 51, 51, 0.5); }
-      #resume #resume-container .button:hover, #resume #resume-container .button:visited:hover {
+      font-family: "Mandali", sans-serif; }
+      #resume #resume-container a:hover, #resume #resume-container a:visited:hover {
         box-shadow: 0px 6px 10px 0px rgba(51, 51, 51, 0.5); }
+    #resume #resume-container .button, #resume #resume-container .button:visited {
+      border: #003366 solid 5px;
+      background: white;
+      color: #003366; }
     #resume #resume-container .button-inverse, #resume #resume-container .button-inverse:visited {
-      float: left;
-      width: 292px;
       border: #003366 solid 5px;
       background: #003366;
-      text-align: center;
-      text-decoration: none;
-      font-family: "Mandali", sans-serif;
-      color: white;
-      font-size: 24px;
-      transition: 0.3s ease-in;
-      box-shadow: 0 3px 5px 0 rgba(51, 51, 51, 0.5); }
-      #resume #resume-container .button-inverse:hover, #resume #resume-container .button-inverse:visited:hover {
-        box-shadow: 0px 6px 10px 0px rgba(51, 51, 51, 0.5); }
+      color: white; }
+  @media only screen and (max-width: 769px) {
+    #resume {
+      padding: 15px 15px 30px; } }
+  @media only screen and (max-width: 601px) {
+    #resume {
+      padding: 10px 10px 30px; } }
 
 footer {
   width: 100%;
