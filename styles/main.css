@@ -10,12 +10,14 @@ body {
       margin: 30px 30px 20px;
       box-shadow: 0 15px 20px rgba(51, 51, 51, 0.5);
       border-radius: 200px; }
-      @media only screen and (max-width: 768px) {
+      @media only screen and (max-width: 769px) {
         #banner #banner-container img#headshot {
-          width: 250px; } }
+          width: 250px;
+          margin: 20px 20px 15px; } }
       @media only screen and (max-width: 480px) {
         #banner #banner-container img#headshot {
-          width: 200px; } }
+          width: 200px;
+          margin: 10px; } }
     #banner #banner-container h1 {
       font-family: "Rock Salt", cursive;
       font-size: 72px;
@@ -23,25 +25,26 @@ body {
       color: #3399cc;
       margin: 30px;
       text-shadow: 0 10px 10px rgba(51, 51, 51, 0.5); }
-      @media only screen and (max-width: 768px) {
+      @media only screen and (max-width: 769px) {
         #banner #banner-container h1 {
           font-size: 60px;
-          line-height: 90px; } }
-      @media only screen and (max-width: 600px) {
+          line-height: 90px;
+          margin: 20px; } }
+      @media only screen and (max-width: 601px) {
         #banner #banner-container h1 {
           font-size: 48px;
           line-height: 72px;
-          margin: 30px 15px; } }
+          margin: 15px; } }
       @media only screen and (max-width: 480px) {
         #banner #banner-container h1 {
           font-size: 42px;
           line-height: 56px;
-          margin: 15px 15px 30px; } }
+          margin: 15px; } }
       @media only screen and (max-width: 400px) {
         #banner #banner-container h1 {
           font-size: 30px;
           line-height: 48px; } }
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 769px) {
     #banner {
       padding: 15px; } }
   @media only screen and (max-width: 600px) {
@@ -57,6 +60,12 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     overflow: auto; }
+    @media only screen and (max-width: 769px) {
+      #about #about-container {
+        padding: 20px; } }
+    @media only screen and (max-width: 600px) {
+      #about #about-container {
+        padding: 15px; } }
     #about #about-container #about-heading {
       text-align: center;
       color: #3399cc;
@@ -64,6 +73,22 @@ body {
       font-size: 48px;
       margin: 0;
       margin-bottom: 30px; }
+      @media only screen and (max-width: 769px) {
+        #about #about-container #about-heading {
+          font-size: 30px; } }
+      @media only screen and (max-width: 600px) {
+        #about #about-container #about-heading {
+          font-size: 24px;
+          margin-bottom: 5px; } }
+      @media only screen and (max-width: 480px) {
+        #about #about-container #about-heading {
+          font-size: 20px; } }
+      @media only screen and (max-width: 400px) {
+        #about #about-container #about-heading {
+          font-size: 18px; } }
+      @media only screen and (max-width: 350px) {
+        #about #about-container #about-heading {
+          font-size: 14px; } }
     #about #about-container .about-paragraph {
       font-family: "Mandali", sans-serif;
       font-size: 18px;
@@ -71,6 +96,24 @@ body {
       color: #003366;
       margin: 0;
       margin-top: 15px; }
+      @media only screen and (max-width: 769px) {
+        #about #about-container .about-paragraph {
+          font-size: 16px;
+          line-height: 21px; } }
+      @media only screen and (max-width: 480px) {
+        #about #about-container .about-paragraph {
+          font-size: 14px;
+          line-height: 20px; } }
+      @media only screen and (max-width: 400px) {
+        #about #about-container .about-paragraph {
+          font-size: 12px;
+          line-height: 16px; } }
+  @media only screen and (max-width: 769px) {
+    #about {
+      padding: 15px; } }
+  @media only screen and (max-width: 600px) {
+    #about {
+      padding: 10px; } }
 
 #contact {
   padding: 0 30px 30px; }
