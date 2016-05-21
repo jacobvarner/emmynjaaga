@@ -17,78 +17,59 @@ $paragraph: 'Mandali', sans-serif
 body
   background: url("../images/white-wall.jpg") repeat center
 
-////////////////
-// NAVIGATION //
-////////////////
-
-header
-  display: block
-  position: fixed
-  top: 0
-  height: 60px
-  width: 100%
-  background: $light-blue
-  box-shadow: 0px 10px 10px rgba(51, 51, 51, 0.5)
-
-  nav
-    display: block
-    float: left
-    height: 60px
-    margin-left: 15px
-    font-size: 0
-
-    a, a:visited
-      display: inline-block
-      line-height: 20px
-      padding: 0px
-      margin: 20px 15px
-      text-decoration: none
-      font-family: $heading
-      font-size: 20px
-      vertical-align: middle
-      color: white
-      transition: 0.5s linear
-
-      &:hover
-        color: $dark-blue
-
-  #linkedin-icon, #linkedin-icon:visited
-    display: block
-    float: right
-    margin: 10px 30px
-    color: white
-    text-decoration: none
-    font-size: 40px
-    line-height: 40px
-    transition: 0.5s linear
-
-    &:hover
-      color: $dark-blue
-
 ////////////
 // BANNER //
 ////////////
 
 #banner
   padding: 30px
-  margin-top: 60px
 
   #banner-container
     text-align: center
 
     img#headshot
-      width: 400px
+      width: 300px
       margin: 30px 30px 20px
       box-shadow: 0 15px 20px rgba(51, 51, 51, 0.50)
       border-radius: 200px
 
+      @media only screen and (max-width: 768px)
+        width: 250px
+
+      @media only screen and (max-width: 480px)
+        width: 200px
+
     h1
       font-family: $title-font
-      font-size: 100px
-      line-height: 160px
+      font-size: 72px
+      line-height: 100px
       color: $light-blue
       margin: 30px
       text-shadow: 0 10px 10px rgba(51, 51, 51, 0.50)
+
+      @media only screen and (max-width: 768px)
+        font-size: 60px
+        line-height: 90px
+
+      @media only screen and (max-width: 600px)
+        font-size: 48px
+        line-height: 72px
+        margin: 30px 15px
+
+      @media only screen and (max-width: 480px)
+        font-size: 42px
+        line-height: 56px
+        margin: 15px 15px 30px
+
+      @media only screen and (max-width: 400px)
+        font-size: 30px
+        line-height: 48px
+
+  @media only screen and (max-width: 768px)
+    padding: 15px
+
+  @media only screen and (max-width: 600px)
+    padding: 10px
 
 ///////////
 // ABOUT //
