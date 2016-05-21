@@ -47,7 +47,7 @@ body {
   @media only screen and (max-width: 769px) {
     #banner {
       padding: 15px; } }
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 601px) {
     #banner {
       padding: 10px; } }
 
@@ -63,7 +63,7 @@ body {
     @media only screen and (max-width: 769px) {
       #about #about-container {
         padding: 20px; } }
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 601px) {
       #about #about-container {
         padding: 15px; } }
     #about #about-container #about-heading {
@@ -76,7 +76,7 @@ body {
       @media only screen and (max-width: 769px) {
         #about #about-container #about-heading {
           font-size: 30px; } }
-      @media only screen and (max-width: 600px) {
+      @media only screen and (max-width: 601px) {
         #about #about-container #about-heading {
           font-size: 24px;
           margin-bottom: 5px; } }
@@ -111,7 +111,7 @@ body {
   @media only screen and (max-width: 769px) {
     #about {
       padding: 15px; } }
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 601px) {
     #about {
       padding: 10px; } }
 
@@ -125,12 +125,28 @@ body {
     margin: 0 auto;
     overflow: auto;
     text-align: center; }
+    @media only screen and (max-width: 769px) {
+      #contact #contact-container {
+        padding: 30px;
+        max-width: 500px; } }
+    @media only screen and (max-width: 601px) {
+      #contact #contact-container {
+        padding: 20px;
+        max-width: 300px; } }
     #contact #contact-container #contact-heading {
       color: white;
       font-family: "Sniglet", cursive;
       font-size: 48px;
       margin: 0;
       margin-bottom: 30px; }
+      @media only screen and (max-width: 769px) {
+        #contact #contact-container #contact-heading {
+          font-size: 36px;
+          margin-bottom: 20px; } }
+      @media only screen and (max-width: 601px) {
+        #contact #contact-container #contact-heading {
+          font-size: 24px;
+          margin-bottom: 10px; } }
     #contact #contact-container a, #contact #contact-container a:visited {
       color: white;
       display: block;
@@ -141,8 +157,24 @@ body {
       margin: 0;
       margin-top: 30px;
       transition: 0.5s linear; }
+      @media only screen and (max-width: 769px) {
+        #contact #contact-container a, #contact #contact-container a:visited {
+          font-size: 32px;
+          line-height: 36px;
+          margin-top: 20px; } }
+      @media only screen and (max-width: 601px) {
+        #contact #contact-container a, #contact #contact-container a:visited {
+          font-size: 20px;
+          line-height: 24px;
+          margin-top: 10px; } }
     #contact #contact-container a:hover {
       color: #3399cc; }
+  @media only screen and (max-width: 769px) {
+    #contact {
+      padding: 15px; } }
+  @media only screen and (max-width: 601px) {
+    #contact {
+      padding: 10px; } }
 
 #resume {
   padding: 0 30px 30px; }
