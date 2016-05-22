@@ -1,0 +1,174 @@
+///////////////
+// VARIABLES //
+///////////////
+
+$light-blue: #3399cc
+$dark-blue: #003366
+$background: #ffffcc
+$overlay: rgba(255, 204, 201, 0.50)
+$title-font: 'Rock Salt', cursive
+$heading: 'Sniglet', cursive
+$paragraph: 'Mandali', sans-serif
+
+////////////////
+// BACKGROUND //
+////////////////
+
+body
+  background: url("../images/white-wall.jpg") repeat center
+  padding: 30px
+  overflow: auto
+
+  @media only screen and (max-width: 768px)
+    padding: 15px
+
+////////////
+// HEADER //
+////////////
+header
+
+  h1
+    font-family: $title-font
+    color: $light-blue
+    font-size: 72px
+    line-height: 100px
+    text-align: center
+    margin: 40px 0 0
+    text-shadow: 0 10px 10px rgba(51, 51, 51, 0.50)
+
+    @media only screen and (max-width: 768px)
+      font-size: 48px
+      line-height: 72px
+
+    @media only screen and (max-width: 480px)
+      margin: 20px 0 0 0
+      font-size: 30px
+      line-height: 48px
+
+  p
+    font-family: $paragraph
+    font-size: 30px
+    color: $dark-blue
+    text-align: center
+    margin: 0
+
+    @media only screen and (max-width: 768px)
+      font-size: 24px
+
+    @media only screen and (max-width: 480px)
+      font-size: 18px
+
+///////////////
+// EDUCATION //
+///////////////
+
+section
+  display: block
+  max-width: 1140px
+  margin: 15px auto
+  background: white
+  padding: 30px
+  box-shadow: 0 5px 15px rgba(51, 51, 51, 0.50)
+
+  @media only screen and (max-width: 768px)
+    padding: 15px
+
+  h2
+    text-align: center
+    font-size: 36px
+    margin: -10px 0 0 0
+    padding: 0
+    color: $light-blue
+    font-family: $heading
+
+    @media only screen and (max-width: 768px)
+      font-size: 24px
+
+  h3
+    font-family: $heading
+    font-size: 20px
+    line-height: 20px
+    color: $dark-blue
+    margin: 10px 0 0 0
+    padding: 0
+
+    @media only screen and (max-width: 768px)
+      font-size: 18px
+
+  p
+    font-family: $paragraph
+    font-size: 16px
+    line-height: 20px
+    color: black
+    margin: 10px 0 0 0
+    padding: 0
+
+    @media only screen and (max-width: 768px)
+      font-size: 14px
+
+  .location
+    font-family: $paragraph
+    font-size: 18px
+
+    @media only screen and (max-width: 768px)
+      font-size: 16px
+
+  .position
+    font-family: $paragraph
+    font-size: 18px
+    font-style: italic
+
+    @media only screen and (max-width: 768px)
+      font-size: 16px
+
+  .duration
+    font-family: $paragraph
+    font-size: 18px
+
+    @media only screen and (max-width: 768px)
+      font-size: 16px
+
+  ul
+    padding-left: 30px
+    margin: 10px 0
+
+    li
+      font-family: $paragraph
+      color: black
+      font-size: 16px
+      line-height: 20px
+
+      @media only screen and (max-width: 768px)
+        font-size: 12px
+
+
+
+
+////////////
+// FOOTER //
+////////////
+
+footer
+  text-align: center
+  height: 60px
+  background: $light-blue
+  margin: 30px -30px -30px -30px
+  padding: 0
+  overflow: auto
+
+  p
+    color: white
+    font-family: $paragraph
+    font-size: 18px
+    line-height: 24px
+    margin: 18px 30px
+
+    a, a:visited, a:hover
+      color: $dark-blue
+      text-decoration: none
+
+    @media only screen and (max-width: 769px)
+      font-size: 14px
+
+  @media only screen and (max-width: 768px)
+    margin: 15px -15px -15px -15px
